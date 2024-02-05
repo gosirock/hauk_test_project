@@ -15,19 +15,20 @@ public class controller {
 	@Autowired
 	test_dao_service service;
 	
-	@GetMapping("hi")
+	@GetMapping("/")
 	public String hi(Model model) throws Exception {
 		
 		String db = service.frist_db_dao();
 		
 		try {
 			model.addAttribute("db", db);
-			return "hi";
+			return "home";
 		} catch (Exception e) {
 			model.addAttribute("db", "db연결실패");
-			return "hi";
+			return "home";
 		}
 		
 	}
 	
-}
+
+} // End

@@ -6,7 +6,7 @@
 <mapper namespace="testMapper">
 
 	<select id="frist_db" resultType="String">
-		SELECT use_id FROM table_db;
+		SELECT use_id FROM first_db
 	</select>
 	
 </mapper>
