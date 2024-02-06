@@ -7,19 +7,13 @@
 <title>Home</title>
 <link href="./resources/css/font.css" rel="stylesheet" />
 <link href="./resources/css/header.css" rel="stylesheet" />
-<link href="./resources/css/index.css" rel="stylesheet" />
-<link href="./resources/css/footer.css" rel="stylesheet" />
-<script src="https://kit.fontawesome.com/0cc6dde4af.js" crossorigin="anonymous"></script>
-<script src="./resources/js/header.js" defer></script>
-<script src="./resources/js/index.js" defer></script>
 </head>
 <body>
 	<header class="header">
 		<div class="logo">
 			<a href="/"><img src="./resources/images/logo_b.png" alt="logo"></a>
 		</div>
-		<div class="empty-header-div">
-		</div>
+
 			<ul class="menu">
 				<li><a href="/">다픽스디자인 소개</a></li>
 				<li><a href="/">프로젝트</a></li>
@@ -29,9 +23,9 @@
 		<div class="down">
 			<a href="/"><img src="./resources/images/down.png" alt="down"></a>
 		</div>
-		
+
 	</header>
-		<a class="bar" href="#"><i class="fa-solid fa-bars"></i></a>
+
 	<div class="bg">
 		<img class = "main_img" src="./resources/images/main_bg.png" alt="main_img">
 		<div class="bg_main_text">

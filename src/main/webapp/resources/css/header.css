@@ -1,8 +1,7 @@
 @charset "UTF-8";
-
 body {
-	margin: 0;
-
+	margin: 0 auto;
+	max-width: 1920px;
 }
 a {
 	text-decoration: none;
@@ -10,70 +9,87 @@ a {
 }
 
 .header{
-	
 	position: fixed;
-	justify-content: space-between;
 	display: flex;
 	align-items: center;
 	height: 80px;
 	width: 100%;
+	max-width: 1920px;
+	z-index: 1000;
+	white-space: nowrap;
+	margin: 0 auto;
+	padding: 0;
+	justify-content: space-between;
 }
-.logo{
-	margin-left: 260px;
-	margin-right: 650px;
+.logo {
+	display: inline;
+	margin-left: 13%;
 }
-.menu{
+.empty-header-div{
+	flex-grow: 0.55;
+}
+.menu {
 	display: flex;
+	justify-content: space-between;
 	list-style: none;
-	color: white;
+	white-space: nowrap;;
+	margin: 0;
+	padding: 0;
 }
+
 .menu li{
+	list-style: none;
 	font-family: "Pre-Regular";
 	font-size: 18px;
-	padding: 10px 12px;
-	margin: 20px 35px;
+	padding: 10px 10px;
+	color: white;
+	margin:0 38px;
+
 }
 .menu li:hover{
 	color: rgb(0, 70, 134);
+	font-family: "Pre-ExtraBold";
 }
 
 .down {
-	margin-right: 30px;
+	margin-right: 2%;
 }
 
-.bg{
-	width: 100%;
+.bar{
+	position: fixed;
+	right: 32px;
+	top:15px;
+	font-size: 32px;
+	display: none;
+	z-index: 1000;
 }
-
-.bg_main_text{
-	font-family: "Pre-Black";
-	position: absolute;
-	top:35%;
-	left: 13%;
-	color: white;
-	width: 627px;
-	font-size: 46px;
-	line-height: 150%;
-}
-.bg_sub_text{
-	font-family: "Pre-Regular";
-	position: absolute;
-	top: 55%;
-	left: 13%;
-	color: white;
-	font-size: 24px;
-	line-height: 170%;
-}
-@keyframes motion {
-		0% {margin-top: 0px;}
-		100% {margin-top: 10px;}
+@media screen and (max-width: 1024px) {
+	.header{
+		flex-direction: column;
+		align-items: flex-start;
+		padding-top: 20px;
 	}
-.bg_icon{
-	position: absolute;
-	top: 75%;
-	left: 13%;
-	animation: motion 0.3s linear 0s infinite alternate;
+	.menu{
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		display: none;
+	}
+	.down{
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	margin: 30 0px;
+	display: none;
 	
-			
-				
+	}
+	.bar{
+		display: block;
+	}
+	.menu.active,
+	.down.active{
+		display: flex;
+		background: red;
+	}
 }
+
