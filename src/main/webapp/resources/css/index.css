@@ -17,7 +17,7 @@
 	top:35%;
 	left: 13%;
 	color: white;
-	width: 627px;
+	width: 39.19rem;
 	font-size: 2.88em;
 	line-height: 150%;
 }
@@ -85,13 +85,13 @@
 .portfolio_name{
 	font-family: "Pre-ExtraBold";
 	font-size: 1.38em;
-	padding-top: 1.13em;
+	padding-top: 1em;
 	padding-bottom: 0.56em;
 }
 .portfolio_detail{
 	font-family: "Pre-Regular";
 	font-size: 1.13em;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 .inquire_area{
 	margin-top: 10em;
@@ -127,8 +127,16 @@
 @media screen and (max-width: 1024px) {
 	html, body{
 		font-size: 8px;
+		width: 100%;
 	}
 
+.portfolio_viewarea{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap:3%;
+
+}
 }
 
 

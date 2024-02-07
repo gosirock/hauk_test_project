@@ -22,10 +22,10 @@ public class controller {
 		System.out.println(db);
 		try {
 			//model.addAttribute("db", db);
-			return "home";
+			return "index";
 		} catch (Exception e) {
 			//model.addAttribute("db", "db연결실패");
-			return "home";
+			return "index";
 		}
 		
 	}
