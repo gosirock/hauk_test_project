@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+.main_image{
+	width: 100%;
+	max-width: 1920px;
+	margin-bottom: 11.31em;
+	position: relative;
+	
+}
+
+.bg_main_text{
+	font-family: "Pre-Black";
+	position: absolute;
+	top:43%;
+	left: 13%;
+	color: white;
+	font-size: 2.88em;
+	line-height: 150%;
+}
+.bg_sub_text{
+	font-family: "Pre-Regular";
+	position: absolute;
+	top: 68%;
+	left: 13%;
+	color: white;
+	font-size: 1.5em;
+	line-height: 170%;
+}
+
+.content_area{
+	width: 74%;
+	margin: 0 auto;
+}
+.mainText{
+	font-family: "Pre-Black";
+	font-size: 28px;
+	color: #004686;
+	margin-bottom: 45px;
+	display: inline-block;
+}
+
+.inputArea{
+	margin-bottom: 175px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 40px;
+	
+}
+.inputObject{
+	
+}
+.objectText{
+	font-family: "Pre-Bold";
+	font-size: 22px;
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="text"]{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom : 1px solid #8D8D8D;
+	width: 100%;
+	font-family: "Pre-Regular";
+	font-size: 22px; 
+}
+
+.subText{
+	font-family: "Pre-Regular";
+	font-size: 16px;
+	margin-left: 10px;
+}
+.checkBoxArea{
+	width:100%;
+	margin-bottom: 143px; 
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+input[type="checkbox"]{
+	display: none;	
+	white-space: nowrap;
+}
+
+label{
+	margin-bottom: 20px;
+}
+input[type="checkbox"] + label .checkBoxSpan{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: #E7E7E7;
+	cursor: pointer;
+	vertical-align: middle;
+
+}
+input[type="checkbox"]:checked + label .checkBoxSpan{
+	background: #004686;
+}
+
+.checkboxText{
+	font-family: "Pre-Bold";
+	font-size: 22px;
+	display: inline-block;
+	white-space: nowrap;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.checkboxText:hover {
+	cursor: pointer;
+}
+.thankyouText{
+	text-align: center;
+	color: #004686;
+	font-family: "Pre-Black";
+	font-size: 2.88em;
+	line-height: 150%;
+	display: block;
+}
+.submitBtnArea{
+	text-align: center;
+}
+input[type="submit"]{
+	display:inline-block
+	font-family: "Pre-Regular";
+	font-size: 20px;
+	color: #939393;
+	background-color: #E7E7E7;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 60px;
+	margin-bottom: 198px;
+	margin-top: 56px;
+}
+input[type="submit"]:hover {
+	cursor: pointer;
+}

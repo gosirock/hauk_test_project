@@ -6,6 +6,7 @@
 	background: #004686;
 	width: 100%;
 	height: 16.63em;
+	max-width: 1920px;
 }
 .footer_dafix_logo{
 	position: absolute;

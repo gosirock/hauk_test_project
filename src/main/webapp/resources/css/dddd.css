@@ -5,12 +5,12 @@
 	max-width: 1920px;
 	margin-bottom: 11.31em;
 	position: relative;
+	
 }
-.main_img {
-    width: 100%;
-    border-bottom-right-radius: 60px;
+.main_img{
+	width: 100%;
+	border-bottom-right-radius: 60px;
 }
-
 .bg_main_text{
 	font-family: "Pre-Black";
 	position: absolute;
@@ -65,14 +65,14 @@
 	margin-bottom: 5.06em;
 }
 .portfolio_viewarea{
-	display: block;
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap:3%;
+
 }
 .portfolio_view {
-	position: relative;
+
 }
 .portfolio_view img{
 	border-radius: 10px 10px 26px 10px;
@@ -115,77 +115,12 @@
 .inquire_btn{
 	font-family: "Pre-Regular";
 	font-size: 1.25em;
-	padding: 10px 30px 10px 30px;
-	background-color: rgba(231, 231, 231, 1);
-	color: rgba(147, 147, 147, 1);
-	border-radius: 60px;
 }
 
 .inquire_sub_text{
 	display: block;
 	font-family: "Pre-Regular";
 	font-size: 1.5em;
-}
-.arw{
-	position: absolute;
-	left: 94%;
-	bottom: 28%;
-}
-
-.circle_wrap{
-	position: absolute;
-	top: 43%;
-	left: 45%;
-	width: 26px;
-	height: 26px;
-	transform: translate(-50%, -50%);
-}
-
-.circle{
-	position: relative;
-	overflow: hidden;
-	height: 50%;
-}
-
-.circle:after {
-	content: "";
-	position: absolute;
-	top:0;
-	left: 0;
-	width: 26px;
-	height: 26px;
-	box-sizing: border-box;
-	border-radius: 50%;
-	border: 2px solid transparent;
-}
-
-@keyframes spin-circle-top {
-	from {
-		transform: rotate(-135deg);
-	}
-	to {
-		transform: rotate(45deg);
-	}
-}
-@keyframes spin-circle-bottom {
-	from {
-		transform: rotate(45deg);
-	}
-	to {
-		transform: rotate(225deg);
-	}
-}
-
-.arw:hover .circle.top:after {
-	border-top-color: white;
-	border-left-color: white;
-	animation: spin-circle-top 0.2s 1 linear both;	
-}
-.arw:hover .circle.bottom:after {
-	border-top-color: white;
-	border-left-color: white;
-	top: -13px;
-	animation: spin-circle-bottom 0.2s 0.2s 1 linear both;	
 }
 
 

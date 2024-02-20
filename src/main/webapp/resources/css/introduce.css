@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+.main_image{
+	width: 100%;
+	padding-left: 13%;
+	padding-top: 10%;
+	max-width: 1660px;
+}
+.content_area{
+	width: 74%;
+	margin: 0 auto;
+	margin-top: 5.94rem;
+
+}
+.main_text{
+	font-family: "Pre-Black";
+	font-size: 2.88em;
+	line-height: 150%;
+	color: #004686;
+	margin-top: 41px;
+	margin-bottom: 48px;
+}
+
+.portfolio_all_btn{
+	font-family: "Pre-Regular";
+	font-size: 1em;
+	color: #969696;
+}
+
+.sub_text{
+	font-family: "Pre-Regular";
+	font-size: 1.5em;
+	line-height: 170%;
+	margin-top: 44px;
+	margin-bottom: 71px;
+}
+
+.text_img_area{
+	display: flex;
+	
+}
+.tool_image{
+	position: relative;
+	left: 20%;
+}
+
+.vision_card_area{
+	display: flex;
+	justify-content: space-between;	
+	flex-wrap: wrap;
+	
+}
+
+.first_vision{
+	margin: 0 auto;
+}
+.card_img{
+	display: block;
+}
+
+.card_front_text{
+	font-family: "Pre-Black";
+	font-size: 18px;
+	color: white;
+	padding: 5px 33px;
+	background-color: #004686;
+	border-radius: 60px;
+	position: relative;
+	bottom: 2.5%;
+	left: 8%;
+}
+
+.card_main_text{
+	font-family: "Pre-Black";
+	font-size: 24px;
+	color: #004686;
+	display: block;
+	margin-top: 27px;
+	margin-left: 33px;
+	margin-bottom: 7px;
+	line-height: 150%;
+
+}
+
+.card_sub_text{
+	font-family: "Pre-Regular";
+	font-size: 18px;
+	display: block;
+	margin-left: 33px;
+	line-height: 170%;
+	margin-bottom: 5%;
+}
+
+.news_main_text{
+	font-family: "Pre-Black";
+	font-size: 2.88em;
+	line-height: 150%;
+	color: #004686;
+	margin-top: 150px;
+}
+
+.news_sub_text{
+	font-family: "Pre-Regular";
+	font-size: 1.5em;
+	line-height: 170%;
+	margin-top: 26px;
+	margin-bottom: 5%;
+}
+
+.news_area{
+	margin: auto;
+	margin-bottom: 196px;
+	
+}
+.news_table{
+	border-top: 1px solid #E9E9E9;
+	margin: auto;
+	width: 100%;
+	white-space: nowrap;
+}
+td{
+	border-bottom: 1px solid #E9E9E9;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.table_days{
+	font-family: "Pre-Bold";
+	font-size: 22px;
+	width: 165px;
+	padding-right: 40px;
+}
+
+.table_bar{
+	height: 14px;
+	border-left: 1px solid #B9B9B9;
+}
+
+.second_bar{
+	margin-right: 20px;
+	margin-left: 20px;	
+}
+.table_subject{
+	font-family: "Pre-Regular";
+	font-size: 22px;
+	padding-left: 36px;
+	width: 100%;
+}
+.table_subtext{
+	font-family: "Pre-Regular";
+	font-size: 18px;
+	color: #888888;
+	text-align: right;
+	padding-right: 5px;
+}

@@ -15,20 +15,46 @@ public class controller {
 	@Autowired
 	test_dao_service service;
 	
-	@GetMapping("/home")
-	public String hi(Model model) throws Exception {
+	@GetMapping("/introduce")
+	public String introduce(Model model) throws Exception {
 		
-		String db = service.frist_db_dao();
-		System.out.println(db);
+		//String db = service.frist_db_dao();
+		//System.out.println(db);
 		try {
 			//model.addAttribute("db", db);
-			return "index";
+			return "introduce";
 		} catch (Exception e) {
 			//model.addAttribute("db", "db연결실패");
-			return "index";
+			return "introduce";
 		}
 		
-	}
+	} // introduce End
 	
+	@GetMapping("/project")
+	public String project(Model model) throws Exception {
+		
+
+		try {
+
+			return "project";
+		} catch (Exception e) {
+			//model.addAttribute("db", "db연결실패");
+			return "project";
+		}
+		
+	} // project End
+	
+	@GetMapping("/inquire")
+	public String inquire(Model model) throws Exception {
+		
+
+		try {
+
+			return "inquire";
+		} catch (Exception e) {
+			return "inquire";
+		}
+		
+	} // inquire End
 
 } // End
