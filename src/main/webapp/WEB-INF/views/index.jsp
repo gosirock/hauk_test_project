@@ -46,7 +46,7 @@
 		<div class="portfolio_viewarea">
 		
 			<div class="portfolio_view">
-				<a href="#" class="arw">
+				<a href="/detail" class="arw">
 					 <img src="./resources/images/arrow.png">
 						<div class="circle_wrap">
 							<div class="circle top"></div>
@@ -59,7 +59,7 @@
 			</div>
 			
 			<div class="portfolio_view">
-				<a href="#" class="arw">
+				<a href="/detail" class="arw">
 						<img src="./resources/images/arrow.png">
 						<div class="circle_wrap">
 							<div class="circle top"></div>
@@ -72,7 +72,7 @@
 			</div>
 			
 			<div class="portfolio_view">
-				<a href="#" class="arw">
+				<a href="/detail" class="arw">
 					<img src="./resources/images/arrow.png">
 					<div class="circle_wrap">
 						<div class="circle top"></div>
@@ -85,7 +85,7 @@
 			</div>
 			
 			<div class="portfolio_view">
-				<a href="#" class="arw">
+				<a href="/detail" class="arw">
 					<img src="./resources/images/arrow.png">
 					<div class="circle_wrap">
 						<div class="circle top"></div>

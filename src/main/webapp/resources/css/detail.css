@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.main_image{
+	width: 100%;
+	max-width: 1920px;
+	position: fixed;
+	z-index: 0;
+	
+}
+
+.content_area{
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	top:307px;
+	margin-bottom: 300px;
+}
+span{
+	color: white;
+	display: block;
+}
+.mainText{
+	font-family: "Pre-Black";
+	font-size: 32px;
+	display: block;
+	margin-bottom: 18px;
+}
+
+.subText{
+	font-family: "Pre-Regular";
+	font-size: 26px;
+	margin-bottom: 12px;
+}
+.categoryArea{
+	display: flex;
+}
+.categoryBar{
+	margin: 0px 30px;  
+}
+.categoryText, .detailText{
+	font-family: "Pre-Regular";
+	font-size: 16px;
+}
+.detailText{
+	margin-top: 54px;
+	margin-bottom: 57px;
+}
+
+.projectView{
+	margin-bottom: 60px;
+}
+
+.xBtn{
+	position: fixed;
+	top: 14%;
+	right: 2%;
+}
+.hamBtn{
+	position: fixed;
+	top: 21%;
+	right: 2%;
+}
+.leftBtn{
+	position: fixed;
+	top: 70%;
+	left: 2%;
+}
+.rightBtn{
+	position: fixed;
+	top: 70%;
+	right: 2%;
+}

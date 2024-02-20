@@ -5,8 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Inquire</title>
-<script src="https://kit.fontawesome.com/0cc6dde4af.js"
-	crossorigin="anonymous"></script>
 <link href="./resources/css/font.css" rel="stylesheet" />
 <link href="./resources/css/inquire.css" rel="stylesheet" />
 </head>
@@ -28,51 +26,52 @@
 		</div>
 	</div>
 	<main class="content_area">
+		<form action="/inquireSubmit" method="get">
 		<span class="mainText">1.기본정보</span>
 		<div class="inputArea">
 			<div class="inputObject">
 				<span class="objectText">기업 및 단체명</span>
-				<input type="text" class="textInput">
+				<input name="companyName" type="text" class="textInput">
 			</div>
 			<div class="inputObject">
 				<span class="objectText">담당자</span>
-				<input type="text" class="textInput">
+				<input name="useName" type="text" class="textInput">
 			</div>
 			<div class="inputObject">
 				<span class="objectText">연락처</span>
-				<input type="text" class="textInput">
+				<input name="phone" type="text" class="textInput">
 			</div>
 			<div class="inputObject">
 				<span class="objectText">이메일</span>
-				<input type="text" class="textInput">
+				<input name="email" type="text" class="textInput">
 			</div>
 		</div>
 		<span class="mainText">2.프로젝트 정보</span>
 		<span class="subText">아래항목에서 프로젝트 정보를 선택해주세요.(다중선택 가능)</span>
 		<div class="checkBoxArea">
 			
-			<input type="checkbox" id="a1">
+			<input name="checkBox" type="checkbox" id="a1" value="aa">
 				<label for="a1">
 					<span class="checkBoxSpan"></span>
 					<span class="checkboxText">편집/인쇄물</span>
 				</label>
-			<input type="checkbox" id="a2">
+			<input name="checkBox" type="checkbox" id="a2" value="bb">
 			<label for="a2">
 			<span class="checkBoxSpan"></span>
 			<span class="checkboxText">프레젠테이션</span></label>
-			<input type="checkbox" id="a3">
+			<input name="checkBox" type="checkbox" id="a3" value="cc">
 			<label for="a3">
 			<span class="checkBoxSpan"></span>
 			<span class="checkboxText">영상제작물</span></label>
-			<input type="checkbox" id="a4">
+			<input name="checkBox" type="checkbox" id="a4">
 			<label for="a4">
 			<span class="checkBoxSpan"></span>
 			<span class="checkboxText">홈페이지 제작</span></label>
-			<input type="checkbox" id="a5">
+			<input name="checkBox" type="checkbox" id="a5">
 			<label for="a5">
 			<span class="checkBoxSpan"></span>
 			<span class="checkboxText">로고/브랜딩</span></label>
-			<input type="checkbox" id="a6">
+			<input name="checkBox" type="checkbox" id="a6">
 			<label for="a6">
 			<span class="checkBoxSpan"></span>
 			<span class="checkboxText">기타 작업물</span></label>
@@ -82,6 +81,7 @@
 		<div class="submitBtnArea">
 			<input type="submit" value="프로젝트 문의하기">
 		</div>
+		</form>
 	</main>
 
 

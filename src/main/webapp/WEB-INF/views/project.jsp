@@ -41,52 +41,52 @@
 		
 		<div class="project_area">
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="#"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
