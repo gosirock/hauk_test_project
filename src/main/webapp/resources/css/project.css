@@ -1,12 +1,14 @@
 @charset "UTF-8";
-.main_image{
+.bg{
 	width: 100%;
 	max-width: 1920px;
 	margin-bottom: 11.31em;
 	position: relative;
 	
 }
-
+.main_image{
+	 width: 100%;
+}
 .bg_main_text{
 	font-family: "Pre-Black";
 	position: absolute;
@@ -58,13 +60,20 @@
 .project{
 
 }
-
-.projectImg{
+.projectImgWarp{
+	display: inline-block;
 	width: 320px;
 	height: 230px;
 	border-radius: 8px 8px 16px 8px;
+	overflow: hidden;
 }
-
+.projectImg{
+	width: 100%;
+}
+.projectImg:hover{
+	transform: scale(1.1, 1.1);
+	transition: all 0.3s ease;
+}
 .projectMainText{
 	display: block;
 	font-family: "Pre-ExtraBold";

@@ -1,8 +1,12 @@
 @charset "UTF-8";
 
-.main_image{
+.bg{
 	width: 100%;
-	padding-left: 13%;
+	max-width: 1920px;
+	
+}
+.main_image{
+	padding-left: 12.7%;
 	padding-top: 10%;
 	max-width: 1660px;
 }
@@ -51,11 +55,44 @@
 	
 }
 
-.first_vision{
-	margin: 0 auto;
+.vision_card{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.card_img_wrap{
+	display: inline-block;
+	max-width: 440px;
+	border-radius: 10px 10px 26px 10px;
+	overflow: hidden;
+	opacity:1;
+}
+
+.scroll_first{
+	transition: all 1s ease;
+}
+.scroll_second{
+	transition: all 1.5s ease;
+}
+.scroll_third{
+	transition: all 2s ease;
+}
+
+.scroll_bottom{
+	transform : translateY(200px);
+	opacity: 0;	
 }
 .card_img{
 	display: block;
+	width: 100%;
+
+}
+
+.card_img:hover{
+	transform: scale(1.1, 1.1);
+	transition: all 0.3s ease;
+	
 }
 
 .card_front_text{
@@ -65,8 +102,8 @@
 	padding: 5px 33px;
 	background-color: #004686;
 	border-radius: 60px;
-	position: relative;
-	bottom: 2.5%;
+	position: absolute;
+	bottom: 41.8%;
 	left: 8%;
 }
 

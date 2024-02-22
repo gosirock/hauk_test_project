@@ -7,15 +7,16 @@
 <title>Introduce</title>
 <link href="./resources/css/font.css" rel="stylesheet" />
 <link href="./resources/css/introduce.css" rel="stylesheet" />
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./resources/js/introduce.js" defer></script>
 </head>
 <body>
 	<!-- header -->
 	<jsp:include page="header.jsp"></jsp:include>
 	
 	
-		<div class="main_image">
-			<img src="./resources/images/introduce_main_img.png" alt="main_image"></img>
+		<div class="bg">
+			<img class="main_image" src="./resources/images/introduce_main_img.png" alt="main_image"></img>
 		</div>
 	<main class="content_area">
 		<div class="text_img_area">
@@ -38,20 +39,26 @@
 		</div>
 
 		<div class="vision_card_area">
-			<div class="first_vision">
-				<img class="card_img" src="resources/images/card_img.png" alt="card_img">
+			<div class="vision_card">
+				<div class="card_img_wrap scroll_first scroll_bottom">
+				<img class="card_img" src="resources/images/____2.png" alt="card_img">
+				</div>
 				<span class="card_front_text">작업효율성</span>
 				<span class="card_main_text">100만개 이상의 채널,<br>미디어 커버리지</span>
 				<span class="card_sub_text">전담 관리자 배정, 마케팅 전략 최적화 등<br>캠페인의 효율을 극대화 솔루션 제공</span>
 			</div>
-			<div class="first_vision">
-				<img class="card_img" src="resources/images/card_img.png" alt="card_img">
+			<div class="vision_card">
+				<div class="card_img_wrap scroll_second scroll_bottom">
+					<img class="card_img" src="resources/images/____2.png" alt="card_img">
+				</div>
 				<span class="card_front_text">작업효율성</span>
 				<span class="card_main_text">100만개 이상의 채널,<br>미디어 커버리지</span>
 				<span class="card_sub_text">전담 관리자 배정, 마케팅 전략 최적화 등<br>캠페인의 효율을 극대화 솔루션 제공</span>
 			</div>
-			<div class="first_vision">
-				<img class="card_img" src="resources/images/card_img.png" alt="card_img">
+			<div class="vision_card">
+				<div class="card_img_wrap scroll_third scroll_bottom">
+					<img class="card_img" src="resources/images/____2.png" alt="card_img">
+				</div>
 				<span class="card_front_text">작업효율성</span>
 				<span class="card_main_text">100만개 이상의 채널,<br>미디어 커버리지</span>
 				<span class="card_sub_text">전담 관리자 배정, 마케팅 전략 최적화 등<br>캠페인의 효율을 극대화 솔루션 제공</span>
@@ -156,7 +163,6 @@
 	<!-- footer -->
 	<jsp:include page="footer.jsp"></jsp:include>
 	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./resources/js/introduce.js"></script>
+
 </body>
 </html>

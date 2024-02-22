@@ -8,6 +8,8 @@
 
 <link href="./resources/css/font.css" rel="stylesheet" />
 <link href="./resources/css/index.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./resources/js/index.js" defer></script>
 </head>
 <body>
 	<!-- header -->
@@ -44,7 +46,6 @@
 			<a href="/project">포트폴리오 모두보기 →</a>
 		</div>
 		<div class="portfolio_viewarea">
-		
 			<div class="portfolio_view">
 				<a href="/detail" class="arw">
 					 <img src="./resources/images/arrow.png">
@@ -98,8 +99,8 @@
 			</div>
 		</div>
 		<div class="inquire_area">
-			<span class="inquire_main_text">늘 새로운 크리에이티브로 변화를 이끌어 갑니다.</span> <span
-				class="inquire_sub_text">컨설팅을 의뢰해주시면 확인 후 최대한 빠르게 답변드릴 예정입니다.
+			<span class="inquire_main_text"></span>
+			<span class="inquire_sub_text">컨설팅을 의뢰해주시면 확인 후 최대한 빠르게 답변드릴 예정입니다.
 				전문가의 분석 및 상담 후 진행되며, 브랜드에 적절한 전략을 제안드립니다.</span> <a href="/inquire"><span
 				class="inquire_btn">프로젝트 문의하기</span></a>
 		</div>
@@ -108,7 +109,6 @@
 	<!-- footer -->
 	<jsp:include page="footer.jsp"></jsp:include>
 	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-	<script src="./resources/js/index.js"></script>
+	
 </body>
 </html>

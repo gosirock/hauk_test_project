@@ -5,26 +5,31 @@
 	border-top-left-radius: 60px;
 	background: #004686;
 	width: 100%;
-	height: 16.63em;
 	max-width: 1920px;
+	
+}
+.objectArea{
+	padding: 3.13rem 16.25rem 3.13rem 16.25rem; 
+}
+.logoPhone{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .footer_dafix_logo{
-	position: absolute;
-	left: 16.25em;
-	top: 3.13em;
+	display: block;
 	width: 12.44rem;
 	height: 3.56rem;
 	background-image: url('../images/footer_dafix_logo.png');
 	background-repeat: no-repeat;
-	background-size: cover	;
+	background-size: cover;
 }
 .footer_phone{
-	position: absolute;
+	display: block;
 	font-family: "Pre-ExtraBold";
 	font-size: 3.50em;
 	color: white;
-	left: 84.44rem;
-	top: 4.13rem;	
+	white-space: nowrap;
 }
 ul{
 	list-style: none;
@@ -34,40 +39,59 @@ ul{
 li{
 	list-style: none;
 }
-.footer_company{
-	position: absolute;
-	top: 9.50rem;
-	left: 16.25rem;
+.commanyDown{
 	display: flex;
-	width: 44.31rem;
+	justify-content: space-between;
+	margin-top: 2.81rem;
+	flex-wrap: wrap;
+}
+.footer_company{
+	display: flex;
 	white-space: nowrap;
 	font-family: "Pre-Medium";
 	font-size: 1rem;
 	color: white;
-	justify-content: space-between;
 	align-items: center;
+	
+}
+.footer_company li{
+	padding-bottom: 1rem;
 }
 .line{
-
 	border-left: 1px solid;
 	height: 1rem;
+	margin: 0 1.44rem;
 }
 
 .footer_down{
-	position: absolute;
-	top: 9.50rem;
-	left: 94.06rem;
-	align-items: center;
+	vertical-align: middle;
+	font-family: "Pre-Regular";
+	font-size: 1rem;
+	color: white;
+	white-space: nowrap;
+	padding-bottom: 1rem;
+}
+.footer_down_img{
+	vertical-align: top;
+}
+.footer_bottom{
+	display: inline-block;
 	font-family: "Pre-Regular";
 	font-size: 1rem;
 	color: white;
 }
 
-.footer_bottom{
-	position: absolute;
-	top: 11.75rem;
-	left: 16.25rem;
-	font-family: "Pre-Regular";
-	font-size: 1rem;
-	color: white;
+@media screen and (max-width: 1024px){
+	.objectArea{
+		padding: 2.13rem 4.25rem 2.13rem 4.25rem; 
+	}
+	.footer_company{
+		flex-wrap: wrap;
+	}
+	.footer_dafix_logo{
+		margin-bottom: 1rem;
+	}
+	.commanyDown{
+		margin-top: 1rem;
+	}
 }

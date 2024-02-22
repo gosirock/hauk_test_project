@@ -12,8 +12,8 @@
 	<!-- header -->
 	<jsp:include page="header.jsp"></jsp:include>	
 		
-		<div class="main_image">
-			<img src="./resources/images/project_main_img.png" alt="main_image">
+		<div class="bg">
+			<img class="main_image" src="./resources/images/project_main_img.png" alt="main_image">
 			<div class="bg_main_text">
 			<span>굳 디자인의 결과물은 클라이언트의<br>굳 비즈니스로 이어집니다.</span>
 			</div>
@@ -41,55 +41,46 @@
 		
 		<div class="project_area">
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
 			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
+				<a href="/detail" class="projectImgWarp"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
 				<span class="projectMainText">울산광역시</span>
 				<span class="projectSubText">코로나19 총력방어 1,000일</span>
 			</div>
-			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
-				<span class="projectMainText">울산광역시</span>
-				<span class="projectSubText">코로나19 총력방어 1,000일</span>
-			</div>
-			<div class="project">
-				<a href="/detail"><img class="projectImg" src="./resources/images/project_1.png" alt="project_img"></a>
-				<span class="projectMainText">울산광역시</span>
-				<span class="projectSubText">코로나19 총력방어 1,000일</span>
-			</div>
+			
 		</div>
 	</main>
 

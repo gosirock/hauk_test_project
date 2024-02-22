@@ -1,8 +1,12 @@
 @charset "UTF-8";
-body {
+body, html {
 	margin: 0 auto;
 	max-width: 1920px;
 	height: 100%;
+	
+}
+body{
+	display: none;
 }
 a {
 	text-decoration: none;
@@ -52,10 +56,11 @@ a {
     color: #808080;
 }
 .menu li:hover{
-	color: rgb(0, 70, 134);
 	font-family: "Pre-ExtraBold";
 }
-
+.gray-color:hover {
+	color : rgba(0, 70, 134, 1);
+}
 .down {
 	margin-right: 2%;
 }

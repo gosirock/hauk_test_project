@@ -17,7 +17,7 @@
 		</div>
 		<div class="empty-header-div"></div>
 		<ul class="menu">
-			<li><a href="/introduce">다픽스디자인 소개</a></li>
+			<li><a href="/introduce" id="introduceLink">다픽스디자인 소개</a></li>
 			<li><a href="/project">프로젝트</a></li>
 			<li><a href="/inquire">문의하기</a></li>
 		</ul>

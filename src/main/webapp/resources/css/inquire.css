@@ -1,13 +1,15 @@
 @charset "UTF-8";
 
-.main_image{
+.bg{
 	width: 100%;
 	max-width: 1920px;
 	margin-bottom: 11.31em;
 	position: relative;
 	
 }
-
+.main_image{
+	width: 100%;
+}
 .bg_main_text{
 	font-family: "Pre-Black";
 	position: absolute;
@@ -120,8 +122,8 @@ input[type="checkbox"]:checked + label .checkBoxSpan{
 .submitBtnArea{
 	text-align: center;
 }
-input[type="submit"]{
-	display:inline-block
+.submitBtn{
+	display:inline-block;
 	font-family: "Pre-Regular";
 	font-size: 20px;
 	color: #939393;
@@ -132,6 +134,9 @@ input[type="submit"]{
 	margin-bottom: 198px;
 	margin-top: 56px;
 }
-input[type="submit"]:hover {
+.submitBtn:hover {
 	cursor: pointer;
+	color: #004686;
+	font-family: "Pre-ExtraBold";
+	transition: color 0.3s ease-out;
 }
