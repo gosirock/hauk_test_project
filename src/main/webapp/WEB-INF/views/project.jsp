@@ -3,8 +3,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" type="image/x-icon" href="./resources/images/titleImg.png">
 <meta charset="UTF-8">
-<title>Project</title>
+<title>dafix</title>
 <link href="./resources/css/font.css" rel="stylesheet" />
 <link href="./resources/css/project.css" rel="stylesheet" />
 </head>

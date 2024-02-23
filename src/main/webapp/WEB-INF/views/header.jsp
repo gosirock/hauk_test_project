@@ -3,8 +3,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" type="image/x-icon" href="./resources/images/titleImg.png">
 <meta charset="UTF-8">
 <title>header</title>
+
 <script src="https://kit.fontawesome.com/0cc6dde4af.js"
 	crossorigin="anonymous"></script>
 <link href="./resources/css/header.css" rel="stylesheet" />

@@ -4,8 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Home</title>
-
+<link rel="shortcut icon" type="image/x-icon" href="./resources/images/titleImg.png">
+<title>dafix</title>
+<meta property="og:title" content="다픽스디자인">
+<meta property="og:url" content="https://gosirock.shop/">
+<meta property="og:description" content="장근표씨가 디자이너라뇨?">
+<meta property="og:image" content="./resources/images/metaLogo.png">
 <link href="./resources/css/font.css" rel="stylesheet" />
 <link href="./resources/css/index.css" rel="stylesheet" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

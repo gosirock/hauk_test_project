@@ -16,7 +16,7 @@ $(document).ready(function() {
     
     $('a').click(function(event) {
         event.preventDefault();
-        var href = $(this).attr('href');
+        let href = $(this).attr('href');
         $('body').fadeOut(500, function() {
             window.location = href;
         });

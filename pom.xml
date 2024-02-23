@@ -64,6 +64,13 @@
 			<version>4.3.9.RELEASE</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.7</version>
+		</dependency>
+
 		<!-- 여기까지 추가함 -->
 		<!-- AspectJ -->
 		<dependency>

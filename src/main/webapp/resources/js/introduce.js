@@ -8,7 +8,7 @@ $(function(){
 
 $(function () {
     $(window).scroll(function () {
-        var top = $(window).scrollTop();
+        let top = $(window).scrollTop();
         if (top > 400) {
             $('.card_img_wrap').removeClass('scroll_bottom');
         } else {
