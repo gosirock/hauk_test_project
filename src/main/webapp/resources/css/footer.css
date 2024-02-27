@@ -70,9 +70,11 @@ li{
 	color: white;
 	white-space: nowrap;
 	padding-bottom: 1rem;
+	cursor: pointer;
 }
 .footer_down_img{
 	vertical-align: top;
+	padding-left: 5px;
 }
 .footer_bottom{
 	display: inline-block;

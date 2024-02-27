@@ -95,55 +95,6 @@
 	
 }
 
-.card_front_text{
-	font-family: "Pre-Black";
-	font-size: 18px;
-	color: white;
-	padding: 5px 33px;
-	background-color: #004686;
-	border-radius: 60px;
-	position: absolute;
-	bottom: 41.8%;
-	left: 8%;
-}
-
-.card_main_text{
-	font-family: "Pre-Black";
-	font-size: 24px;
-	color: #004686;
-	display: block;
-	margin-top: 27px;
-	margin-left: 33px;
-	margin-bottom: 7px;
-	line-height: 150%;
-
-}
-
-.card_sub_text{
-	font-family: "Pre-Regular";
-	font-size: 18px;
-	display: block;
-	margin-left: 33px;
-	line-height: 170%;
-	margin-bottom: 5%;
-}
-
-.news_main_text{
-	font-family: "Pre-Black";
-	font-size: 2.88em;
-	line-height: 150%;
-	color: #004686;
-	margin-top: 150px;
-}
-
-.news_sub_text{
-	font-family: "Pre-Regular";
-	font-size: 1.5em;
-	line-height: 170%;
-	margin-top: 26px;
-	margin-bottom: 5%;
-}
-
 .news_area{
 	margin: auto;
 	margin-bottom: 196px;

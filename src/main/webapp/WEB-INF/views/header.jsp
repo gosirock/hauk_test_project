@@ -6,10 +6,11 @@
 <link rel="shortcut icon" type="image/x-icon" href="./resources/images/titleImg.png">
 <meta charset="UTF-8">
 <title>header</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://kit.fontawesome.com/0cc6dde4af.js"
 	crossorigin="anonymous"></script>
 <link href="./resources/css/header.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="./resources/js/header.js" defer></script>
 </head>
 <body>
@@ -25,10 +26,16 @@
 		</ul>
 
 		<div class="down">
-			<a href="/"><img class="down_img" src="./resources/images/down.png" alt="down"></a>
+			<a class="header_down" href="/dafixPDF"><img class="down_img" src="./resources/images/down.png" alt="down"></a>
 		</div>
 	</header>
-		<a class="bar" href="#"><i class="fa-solid fa-bars"
-		style="color: white;"></i></a>
+		<div class="hamWarp">
+			<!-- <i class="fa-solid fa-bars"></i> -->
+			<div class="ham">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
 </body>
 </html>

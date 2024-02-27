@@ -1,5 +1,8 @@
 package com.myproject.myapp.controller;
 
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
 import java.util.Map;
 import java.util.Properties;
 
@@ -11,6 +14,8 @@ import javax.mail.Session;
 import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -141,5 +146,29 @@ public class controller extends Authenticator {
 			return "admin";
 		}
 		
-	} // inquire End
+	} // admin End
+	@GetMapping("/dafixPDF")
+	public void pdfDown(HttpServletResponse resp, HttpServletRequest req) throws Exception {
+		
+		try{
+	    	String fileRealPath = 
+	       req.getSession().getServletContext()
+	       .getRealPath("/resources/images/testPdf.pdf");
+	        File file = new File(fileRealPath);
+	        resp.setHeader("Content-Type", "application/pdf");
+	        resp.setHeader("Content-Length", String.valueOf(file.length()));
+	        //기본값(생략가능) 브라우저에서 파일이 열림
+	        resp.setHeader("Content-Disposition", "inline");
+	        //파일이 다운 받아짐
+	        resp.setHeader("Content-Disposition", "attachment");
+	        //파일명 설정 (옵션)
+	        resp.setHeader("filename", "dafix.pdf");
+	        
+	        Files.copy(file.toPath(), resp.getOutputStream());
+	        
+	    } catch (IOException e) {
+	    	//예외처리
+	    }
+		
+	} // /pdfDown End
 } // End

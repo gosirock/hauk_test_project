@@ -26,7 +26,7 @@
 					<span>채널의 경계가 없는 데이터 마케팅<br>자동화를 제공합니다.</span>
 				</div>
 				<div class="portfolio_all_btn">
-					<a htref="/project">포트폴리오 모두보기 →</a>
+					<a href="/project">포트폴리오 모두보기 →</a>
 				</div>
 				<div class="sub_text">
 					<span>국경, 크리에이티브, 디바이스 제약을 뛰어넘는<br>
@@ -42,27 +42,21 @@
 		<div class="vision_card_area">
 			<div class="vision_card">
 				<div class="card_img_wrap scroll_first scroll_bottom">
-				<img class="card_img" src="resources/images/____2.png" alt="card_img">
+				<img class="card_img" src="resources/images/visionImg.png" alt="card_img">
 				</div>
-				<span class="card_front_text">작업효율성</span>
-				<span class="card_main_text">100만개 이상의 채널,<br>미디어 커버리지</span>
-				<span class="card_sub_text">전담 관리자 배정, 마케팅 전략 최적화 등<br>캠페인의 효율을 극대화 솔루션 제공</span>
+				
 			</div>
 			<div class="vision_card">
 				<div class="card_img_wrap scroll_second scroll_bottom">
-					<img class="card_img" src="resources/images/____2.png" alt="card_img">
+					<img class="card_img" src="resources/images/visionImg.png" alt="card_img">
 				</div>
-				<span class="card_front_text">작업효율성</span>
-				<span class="card_main_text">100만개 이상의 채널,<br>미디어 커버리지</span>
-				<span class="card_sub_text">전담 관리자 배정, 마케팅 전략 최적화 등<br>캠페인의 효율을 극대화 솔루션 제공</span>
+				
 			</div>
 			<div class="vision_card">
 				<div class="card_img_wrap scroll_third scroll_bottom">
-					<img class="card_img" src="resources/images/____2.png" alt="card_img">
+					<img class="card_img" src="resources/images/visionImg.png" alt="card_img">
 				</div>
-				<span class="card_front_text">작업효율성</span>
-				<span class="card_main_text">100만개 이상의 채널,<br>미디어 커버리지</span>
-				<span class="card_sub_text">전담 관리자 배정, 마케팅 전략 최적화 등<br>캠페인의 효율을 극대화 솔루션 제공</span>
+				
 			</div>
 		</div>
 		

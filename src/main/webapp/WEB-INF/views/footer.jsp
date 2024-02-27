@@ -6,6 +6,8 @@
 <meta charset="UTF-8">
 <title>footer</title>
 <link href="./resources/css/footer.css" rel="stylesheet" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+<script src="./resources/js/footer.js" defer></script>
 </head>
 <body>
 	<footer class="footer">
@@ -24,8 +26,9 @@
 				<li><div class="line"></div></li>
 				<li>TEL : 053-614-7874</li>
 			</ul>
-			<a class="footer_down" href="#">회사소개서 다운로드 
-				<img class="footer_down_img" src="./resources/images/footer_down_btn.png"></a>
+			<a class="footer_down" href="/dafixPDF">회사소개서 다운로드 
+				<img class="footer_down_img" src="./resources/images/footer_down_btn.png">
+			</a>
 			</div>
 			<span class="footer_bottom">©2022 BLUE PEBBLEE design studio, ALL
 				Rights Reserved</span>

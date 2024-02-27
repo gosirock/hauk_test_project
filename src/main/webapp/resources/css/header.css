@@ -25,7 +25,6 @@ a {
 	margin: 0 auto;
 	padding: 0;
 	justify-content: space-between;
-	
 }
 .logo {
 	display: inline;
@@ -55,6 +54,11 @@ a {
 .gray-color {
     color: #808080;
 }
+
+.header-color{
+	background-color: white;
+}
+
 .menu li:hover{
 	font-family: "Pre-ExtraBold";
 }
@@ -64,13 +68,19 @@ a {
 .down {
 	margin-right: 2%;
 }
-.bar{
+.hamWarp{
+	margin:0;
 	position: fixed;
-	right: 32px;
-	top:15px;
-	font-size: 32px;
+	right: 10%;
+	top:3%;
 	display: none;
 	z-index: 1000;
+	cursor: pointer;
+}
+.ham{
+	position: absolute;
+	width: 60px;
+	height: 45px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -80,10 +90,9 @@ a {
 		padding-top: 20px;
 	}
 	.menu{
-		flex-direction: column;
-		align-items: center;
 		width: 100%;
 		display: none;
+		text-align: end;
 	}
 	.down{
 	align-items: center;
@@ -93,14 +102,42 @@ a {
 	display: none;
 	
 	}
-	.bar{
+	
+	.hamWarp{
 		display: block;
-		
 	}
-	.menu.active,
-	.down.active{
-		display: flex;
-		background: red;
+	
+	.ham, .ham span {
+		display: inline-block;
+		transition: all .4s;
+		box-sizing: border-box;
 	}
-}
+	.ham span {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		background-color: #fff;
+		border-radius: 4px;
+	}
+	.ham span:nth-of-type(1) {
+		top: 0;
+	}
+	.ham span:nth-of-type(2) {
+		top: 45%;
+	}
+	.ham span:nth-of-type(3) {
+		bottom: 0;
+	}
+	.ham.active span:nth-of-type(1) {
+		-webkit-transform: translateY(20px) rotate(-45deg);
+		transform: translateY(20px) rotate(-45deg);
+	}
+	.ham.active span:nth-of-type(2) {
+		opacity: 0;
+	}
+	.ham.active span:nth-of-type(3) {
+		-webkit-transform: translateY(-20px) rotate(45deg);
+		transform: translateY(-20px) rotate(45deg);
+	}}
 

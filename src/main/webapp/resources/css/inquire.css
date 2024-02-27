@@ -57,7 +57,7 @@
 	display: block;
 	margin-bottom: 20px;
 }
-input[type="text"], input[type="email"] {
+input[type="text"] {
 	border-top: none;
 	border-right: none;
 	border-left: none;
@@ -66,7 +66,7 @@ input[type="text"], input[type="email"] {
 	font-family: "Pre-Regular";
 	font-size: 22px; 
 }
-input[type="text"]:focus, input[type="email"]:focus{
+input[type="text"]:focus{
 	outline: none;
 	
 }
@@ -143,10 +143,11 @@ input[type="checkbox"]:checked + label .checkBoxSpan{
 	border-radius: 60px;
 	margin-bottom: 198px;
 	margin-top: 56px;
+	cursor: pointer;
 }
 .submitBtn:hover {
-	cursor: pointer;
-	color: #004686;
+	background-color : #004686;
 	font-family: "Pre-ExtraBold";
-	transition: color 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
 }

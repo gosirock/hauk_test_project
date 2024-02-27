@@ -43,7 +43,7 @@
 		opacity: 0.8;
 	}
 
-	.btn{
+	.loginBtn{
 		color: #939393;
 		background-color: #E7E7E7;
 		border: none;
@@ -56,7 +56,7 @@
 		opacity: 0.9;
 	}
 	
-	.btn:hover {
+	.loginBtn:hover {
 	cursor: pointer;
 	color: white;
 	background-color: #004686;
@@ -81,13 +81,13 @@
 	<main>
 		<section class="loginWrap">
 			<div class="textWrap">
-				<input type="text" placeholder="아이디" autocomplete="off">
+				<input type="text" id="adminId" placeholder="아이디" autocomplete="off" >
 			</div>
 			<div class="textWrap">
-				<input type="password" placeholder="비밀번호" autocomplete="off">
+				<input type="password" id="adminPw" placeholder="비밀번호" autocomplete="off" >
 			</div>
 			<div class="btnWrap">
-				<button class="btn">로그인</button>
+				<button class="loginBtn">로그인</button>
 			</div>
 		</section>
 	</main>

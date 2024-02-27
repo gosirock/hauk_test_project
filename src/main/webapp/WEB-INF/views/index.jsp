@@ -71,7 +71,7 @@
 							<div class="circle bottom"></div>
 						</div>	
 				</a>
-				 <img src="./resources/images/_______3.png"> <span
+				 <img src="/gosirock/tomcat/webapps/portfolio/test.png"> <span
 					class="portfolio_name">한국남부발전</span> <span class="portfolio_detail">중잔기
 					경영전략 및 조직개편 사내보고 PT</span>
 			</div>

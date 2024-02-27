@@ -1,0 +1,70 @@
+
+
+.content_area{
+	width: 74%;
+	margin: 0 auto;
+}
+
+.btnArea{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.updateText{
+	font-family: "Pre-Bold";
+	font-size: 46px;
+}
+
+.insertPageBtn{
+	font-family: "Pre-Bold";
+	font-size: 24px;
+	color: white;
+	background-color: rgba(0, 70, 134, 1);
+	border-radius: 30px;
+	border: none;
+	width: 216px;
+	height: 62px;
+	cursor: pointer;
+}
+
+
+.project_area{
+	width: 100%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 40px;
+	margin-bottom: 281px;
+}
+
+.project{
+
+}
+.projectImgWarp{
+	display: inline-block;
+	width: 320px;
+	height: 230px;
+	border-radius: 8px 8px 16px 8px;
+	overflow: hidden;
+}
+.projectImg{
+	width: 100%;
+}
+.projectImg:hover{
+	transform: scale(1.1, 1.1);
+	transition: all 0.3s ease;
+}
+.projectMainText{
+	display: block;
+	font-family: "Pre-ExtraBold";
+	font-size: 22px;
+	margin: 13px 0px 7px;
+}
+
+.projectSubText{
+	display: block;
+	font-family: "Pre-Regular";
+	font-size: 18px;
+}

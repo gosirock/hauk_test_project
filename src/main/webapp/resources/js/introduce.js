@@ -4,7 +4,7 @@ $(function(){
     $('.down_img').attr('src','./resources/images/downBlue.png');
 });
 
-
+$('.header').addClass('header-color');
 
 $(function () {
     $(window).scroll(function () {

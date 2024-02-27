@@ -46,7 +46,7 @@
 			</div>
 			<div class="inputObject">
 				<span class="objectText">이메일</span>
-				<input id="email" type="email" class="textInput"  required placeholder="example@gmail.com" maxlength="30" autocomplete="off">
+				<input id="email" type="text" class="textInput" placeholder="example@gmail.com" maxlength="30" autocomplete="off">
 			</div>
 		</div>
 		<span class="mainText">2.프로젝트 정보</span>
